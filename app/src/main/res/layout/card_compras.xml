@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:id="@+id/layoutCompras"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    android:layout_margin="10px"
+    android:padding="10dp"
+    android:elevation="1dp"
+    android:background="@drawable/fondo_blanco">
+
+
+        <TextView
+            android:id="@+id/producto_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/lugar_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/valor_producto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/valor_ahorro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:id="@+id/producto_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="nombre del producto"
+                android:padding="3dp"
+                android:layout_gravity="left"/>
+            <TextView
+                android:layout_column="2"
+                android:id="@+id/producto_value"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="valor del producto"
+                android:padding="3dp"
+                android:layout_gravity="left"/>
+            <ImageView
+                android:layout_column="3"
+                android:id="@+id/icono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_camera"
+                android:padding="3dp"/>
+        </TableRow>
+
+
+
+</TableLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_lugares"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10px"
+    android:background="@drawable/fondo_blanco"
+    android:elevation="1dp"
+    android:orientation="vertical"
+    android:padding="10px">
+
+    <TextView
+        android:id="@+id/nombreLugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10px"
+        android:layout_marginLeft="10px"
+        android:padding="3dp"
+        android:text="Nombre del lugar"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/ubicacionLugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/nombreLugar"
+        android:layout_margin="10px"
+        android:layout_marginLeft="10px"
+        android:paddingLeft="3dp"
+        android:text="Ubicación del lugar"
+        android:textColor="@color/colorGrayText"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/idLugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/ubicacionLugar"
+        android:layout_margin="10px"
+        android:layout_marginLeft="10px"
+        android:paddingLeft="10px"
+        android:text="id del lugar"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/eliminarLugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10px"
+        android:padding="3dp"
+        android:src="@drawable/ic_delete" />
+</RelativeLayout>

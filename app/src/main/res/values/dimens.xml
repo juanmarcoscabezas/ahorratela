@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="caja_margin">200dp</dimen>
+    <dimen name="top_margin_layout">30dp</dimen>
+    <dimen name="left_right_margin_layout">15dp</dimen>
+    <dimen name="left_margin_lbl_form">25dp</dimen>
+    <dimen name="compra">15dp</dimen>
+</resources>

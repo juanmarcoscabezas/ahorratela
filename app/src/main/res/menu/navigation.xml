@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_compras"
+        android:icon="@drawable/ic_car"
+        android:title="Comparar" />
+
+    <item
+        android:id="@+id/navigation_registros"
+        android:icon="@drawable/ic_list"
+        android:title="Registros" />
+
+    <item
+        android:id="@+id/navigation_graficas"
+        android:icon="@drawable/ic_graphics"
+        android:title="Gráficos" />
+
+</menu>

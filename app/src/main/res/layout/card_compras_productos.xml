@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_lugares"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10px"
+    android:background="@drawable/fondo_morado"
+    android:elevation="1dp"
+    android:orientation="vertical"
+    android:padding="10px">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/productosComprasLayout">
+        <TextView
+            android:id="@+id/nombreProducto"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="10px"
+            android:layout_marginLeft="10px"
+            android:paddingLeft="10px"
+            android:text="Nombre del producto"/>
+
+        <TextView
+            android:id="@+id/descripcionProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/nombreProducto"
+            android:layout_margin="10px"
+            android:layout_marginLeft="10px"
+            android:paddingLeft="3dp"
+            android:text="Descripción del producto"
+            android:textColor="@color/colorList"
+            android:textSize="12sp" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/idProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/presentacionProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/unidadProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/medidaProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
