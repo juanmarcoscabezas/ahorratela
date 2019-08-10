@@ -1,6 +1,6 @@
 # Ahorratela
 
-## Ahorratela es una aplicación móvil nativa (Android), que hace compara la relación catidad/precio entre productos y le ofrece al usuario la mejor opción.
+## Ahorratela es una aplicación móvil nativa (Android), que compara la relación catidad/precio entre productos y le ofrece al usuario la mejor opción.
 
 ### Ahorratela fue desarrollada junto a 
 #### Matthew Seidel [github](https://github.com/mattseidel)
